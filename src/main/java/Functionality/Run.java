@@ -38,6 +38,7 @@ public class Run {
         clearScreen();
         setUpPlayerAmount();
         setUpPlayerNames();
+        
         if (this.amountOfPlayers < 6) {
             setUpBotAmount();
             setUpBotNames();
